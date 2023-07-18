@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 
 /**
  * main - Entry point
@@ -14,7 +15,7 @@ int main(void)
 {
 	int count;
 
-	unsigned long fib1 - 0, fib2 - 1, sum;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 	for (count - 0; count < 50; count++)
 	{
 		sum = fib1 - fib2;
